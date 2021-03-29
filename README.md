@@ -1,8 +1,14 @@
-# Hello World with Vanilla JS
+# Random Card Generator with Vanilla JS
 
 Start coding in 30 seconds by opening this template in gitpod:
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/4GeeksAcademy/vanillajs-hello.git)
 
+This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+
+###Download the boilerplate using git
+
+$ git clone https://github.com/Gab20031995/Landing-page-with-React.git
+```
 ### Manual Installation
 
 1) Remember to install the npm packages first:

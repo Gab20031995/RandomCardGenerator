@@ -1,1 +1,40 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.card {
+  margin: auto;
+  margin-top: 10%;
+  position: relative;
+  width: 205px;
+  height: 270px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.card-suit {
+  display: inline-block;
+  position: absolute;
+}
+.card-suit.top {
+  font-size: 40px;
+  top: -10px;
+  left: 5px;
+}
+.card-suit.bottom {
+  font-size: 40px;
+  top: 215px;
+  left: 170px;
+}
+.card-value {
+  text-align: center;
+  font-size: 90px;
+  position: absolute;
+  top: 20%;
+  left: 35%;
+}
+.card.spades,
+.card.clubs {
+  color: black;
+}
+.card.hearts,
+.card.diamonds {
+  color: red;
+}
