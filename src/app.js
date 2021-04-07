@@ -33,21 +33,21 @@ function randomCard(cards) {
   const random = Math.floor(Math.random() * 51);
   const cardValue = cards[random].value;
   const cardSuit = cards[random].suit;
-  let entity;
-  cardSuit === "♦"
-    ? (entity = "♦")
-    : (entity = "" + cardSuit.toLowerCase() + "");
+  let postSuit;
+  cardSuit === ""
+    ? (postSuit = "")
+    : (postSuit = "" + cardSuit.toLowerCase() + "");
   const card = document.createElement("div");
   card.classList.add("card", cardSuit.toLowerCase());
   card.innerHTML =
     '<span class="card-suit top">' +
-    entity +
+    postSuit +
     "</span>" +
     '<span class="card-value">' +
     cardValue +
     "</span>" +
     '<span class="card-suit bottom">' +
-    entity +
+    postSuit +
     "</span>";
   document.body.appendChild(card);
 }
